@@ -1,0 +1,167 @@
+/* Style inputs */
+
+
+/* Contact form */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  resize: vertical;
+}
+
+container-fluid bg-2 text-center{
+	margin: 30pt;
+}
+
+/* Contact form */
+
+/* text */
+
+#navbar{
+margin: 0pt;
+}
+
+.ondertitel{
+font-family: 'roboto', serif;
+margin: 10pt;
+}
+
+.margin {
+font-family: 'Merriweather', serif;
+margin-bottom: -10pt;
+
+}
+
+.tussentitel
+{
+font-family: 'Merriweather', serif;
+}
+
+.btn
+{
+font-family: 'Merriweather', serif;
+text-align: center;
+margin-top: 10pt;
+}
+
+.tweedetussentitel
+{
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 12pt;
+}
+
+.inleiding{
+text-align: center;
+font-size: 12pt;
+line-height: 140%;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  min-width: 250pt;
+  max-width: 600pt;
+  border-radius: 10px;
+  padding: 80px;
+  text-align: center;
+}
+
+
+
+container-fluid {
+  position: relative;
+  width: 80%;
+  max-width: 700pt;
+  align-self: center;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  padding: 20px;
+  text-align: center;
+}
+
+container-inleiding{
+  position: relative;
+  width: 80%;
+  max-width: 700pt;
+  border-radius: 10px;
+  background-color: #FEE1C7;
+  padding: 100px;
+  text-align: center;
+}
+img{
+max-width: 100%;
+height:auto;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+text-align: center;
+}
+
+h1 {
+text-align: center;
+font-family: 'Merriweather'!important, serif;
+}
+
+h2{
+font-family: 'Merriweather'!important, serif;
+text-align: center;
+font-size: 20pt;
+text-decoration: none;
+}
+
+h3{
+font-family: 'Roboto'!important, serif;
+text-align: center;
+align-self: center;
+}
+
+
+
+
+
+  .affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 0px;
+  }
+
+/* Style the container/contact section */
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.contact{
+  te: #000000}
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+
+
+
+
+
